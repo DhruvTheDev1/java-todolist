@@ -1,0 +1,44 @@
+To Do List in Java 
+1 - Keep it Simple and extend later - Plan 1
+
+Goal:
+- Users can Create, Update, Delete and Read
+1. Users can add a task
+2. Users can Update a task
+3. Users can delete a task 
+4. Users can view the task
+
+1. adding a task
+- task ID
+- Task name
+- task description
+
+2. update a task -> change description/completeness based on ID
+if it exists - can change or else message saying does not exist
+
+3. delete a task
+- asks for task id or delete all
+- if id then deletes it
+- if delete all then deletes all
+
+4. view all tasks
+prints all tasks 
+
+Build program from here and extend
+
+Classes:
+1. Main Class
+- Entry point of the program
+
+2. UI Class
+- Main UI of the program
+
+3. Task Class
+- Defining properties/behaviour of the class
+- task name, completed, etc.
+
+4. Task management class
+- Managing the tasks
+- E.g. adding a task, deleting a task, etc,
+
+This is the simple-starting point for building the application

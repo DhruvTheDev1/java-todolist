@@ -1,8 +1,15 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
 
-        Task task = new Task("1", "Eat", "Eat Food"); // test
-        System.out.println(task);
+        TaskManager toDoList = new TaskManager();
+
+        toDoList.addTask(new Task(1, "Groceries", "Go Shopping"));
+        toDoList.addTask(new Task(2, "Sleep", "Go sleep"));
+
+        toDoList.toDoList();
+
+        toDoList.addTask(new Task(1, "Groceries", "Go Shopping"));
+
+        
     }
 }

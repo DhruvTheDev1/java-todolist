@@ -1,18 +1,18 @@
-## Getting Started
+**TO DO LIST APPLICATION
+**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple To-Do-List application where users can perform basic CRUD operations to manage tasks. The application currently uses in-memory storage for simplicity.
 
-## Folder Structure
+Features
+- Create: Users can add new tasks with an ID, name and description.
+- Read: Users can view a specific task by ID or all tasks.
+- Update: Users can update an existing task.
+- Delete: Users can remove tasks individually or clear the entire task list
+  
+Further Work:
+- More validation to ensure correct task data.
+- Incrementing ID automatically hence users do not need to enter an ID every time.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This project is planned to be expanded into a Spring Boot application with a database backend for persistent storage hence why it is kept simple and straightforward.
+- Database Integration: Stores tasks in a relational database such as MySQL.
+- SpringBoot: Application converted to a web-based REST API.

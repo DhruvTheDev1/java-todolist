@@ -1,14 +1,15 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
-        TaskManager toDoList = new TaskManager();
+    TaskManager taskManager = new TaskManager();
+    Scanner scanner =  new Scanner(System.in);
+    UserInterface userInterface = new UserInterface(taskManager, scanner);
 
-        toDoList.addTask(new Task(1, "Groceries", "Go Shopping"));
-        toDoList.addTask(new Task(2, "Sleep", "Go sleep"));
+    userInterface.start();
 
-        toDoList.toDoList();
-
-        toDoList.addTask(new Task(1, "Groceries", "Go Shopping"));
+    scanner.close();
 
         
     }
